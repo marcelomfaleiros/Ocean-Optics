@@ -125,6 +125,3 @@ if __name__ == '__main__':
     tela = Measurement()
     tela.show()
     app.exec_()
-
-
-        
