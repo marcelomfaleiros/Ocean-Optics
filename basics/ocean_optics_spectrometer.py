@@ -23,7 +23,7 @@ class OceanOptics(qtw.QWidget, Ui_Form):
         self.setObjectName("Ocean Optics")
         self.setupUi(self)
 
-        self.start_up()
+        #self.start_up()
         
         self.measure_pushButton.clicked.connect(self.measure)
         self.freeRun_pushButton.clicked.connect(self.freerun)
